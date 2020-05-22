@@ -49,4 +49,10 @@ public class FizzBuzzTest {
         assertEquals("BuzzWhizz", FizzBuzz.report(35));
         assertEquals("BuzzWhizz", FizzBuzz.report(70));
     }
+
+    @Test
+    public void should_report_fizz_buzz_and_whizz_when_number_is_multiple_of_105() {
+        assertEquals("FizzBuzzWhizz", FizzBuzz.report(105));
+        assertEquals("FizzBuzzWhizz", FizzBuzz.report(210));
+    }
 }
