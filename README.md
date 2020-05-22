@@ -22,7 +22,7 @@
 
 - 当所报是 7 的倍数， report Whizz
 
-- 当所报是 15， report FizzBuzz
+- 当所报是 15 的倍数， report FizzBuzz
 
 - 当所报是 35， report BuzzWhizz
 

@@ -35,4 +35,12 @@ public class FizzBuzzTest {
         assertEquals("4", FizzBuzz.report(4));
         assertEquals("8", FizzBuzz.report(8));
     }
+
+    @Test
+    public void should_report_fizz_and_buzz_when_number_is_multiple_of_15() {
+        assertEquals("FizzBuzz", FizzBuzz.report(15));
+        assertEquals("FizzBuzz", FizzBuzz.report(30));
+        assertEquals("FizzBuzz", FizzBuzz.report(45));
+        assertEquals("FizzBuzz", FizzBuzz.report(60));
+    }
 }
