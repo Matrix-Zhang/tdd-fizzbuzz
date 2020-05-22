@@ -24,8 +24,8 @@
 
 - 当所报是 15 的倍数， report FizzBuzz
 
-- 当所报是 35， report BuzzWhizz
+- 当所报是 35的倍数， report BuzzWhizz
 
-- 当所报是 105， report FizzBuzzWhizz
+- 当所报是 105的倍数， report FizzBuzzWhizz
 
 - 当不满足以上条件， report 数字本身
