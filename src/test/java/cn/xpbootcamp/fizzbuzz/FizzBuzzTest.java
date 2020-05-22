@@ -27,4 +27,12 @@ public class FizzBuzzTest {
         assertEquals("Whizz", FizzBuzz.report(14));
         assertEquals("Whizz", FizzBuzz.report(28));
     }
+
+    @Test
+    public void should_report_number_when_number_not_multiple_of_any() {
+        assertEquals("1", FizzBuzz.report(1));
+        assertEquals("2", FizzBuzz.report(2));
+        assertEquals("4", FizzBuzz.report(4));
+        assertEquals("8", FizzBuzz.report(8));
+    }
 }
