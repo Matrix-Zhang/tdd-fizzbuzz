@@ -20,4 +20,11 @@ public class FizzBuzzTest {
         assertEquals("Buzz", FizzBuzz.report(20));
         assertEquals("Buzz", FizzBuzz.report(25));
     }
+
+    @Test
+    public void should_report_whizz_when_number_is_multiple_of_7() {
+        assertEquals("Whizz", FizzBuzz.report(7));
+        assertEquals("Whizz", FizzBuzz.report(14));
+        assertEquals("Whizz", FizzBuzz.report(28));
+    }
 }
